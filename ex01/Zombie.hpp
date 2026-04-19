@@ -25,4 +25,3 @@ class Zombie
 Zombie *zombieHorde(int n, std::string name);
 
 #endif
-

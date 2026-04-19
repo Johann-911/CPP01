@@ -6,7 +6,7 @@ Zombie::Zombie(std::string name) : name(name)
     std::cout << "Zombie " << name << " is born!" << std::endl;
 }
 //Def Const
-Zombie::Zombie() : name("Unnamed")
+Zombie::Zombie() : name()
 {
     std::cout << "Zombie " << name << " is born!" << std::endl;
 }
@@ -20,7 +20,7 @@ Zombie::~Zombie()
 
 void Zombie::announce()
 {
-    std::cout << "Zombie " << name << "Braiiinnzz.." << std::endl;
+    std::cout << "Zombie " << name << " Braiiinnzz.." << std::endl;
 }
 
 void Zombie::setName(std::string name)
