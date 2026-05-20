@@ -34,7 +34,5 @@ re:
 	$(MAKE) fclean
 	$(MAKE) all
 
-party:
-	@curl parrot.live
 
 .PHONY: all clean fclean re party
